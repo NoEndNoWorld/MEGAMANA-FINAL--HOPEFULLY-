@@ -24,7 +24,7 @@ public class Control : MonoBehaviour
         // Verifica se o botão de pulo foi pressionado e controla o pulo duplo.
         if (Input.GetButtonDown("Jump"))
         {
-            if (jumptime < 0.1f)
+            if (jumptime < 0.5f)
             {
                 doublejump = true;
             }

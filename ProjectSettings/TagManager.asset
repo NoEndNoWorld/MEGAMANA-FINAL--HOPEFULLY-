@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Teleporter
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - fundo
-  - 
-  - 
+  - espelho
+  - protag
   - 
   - 
   - 
@@ -48,6 +49,12 @@ TagManager:
   - name: chao
     uniqueID: 2640361553
     locked: 0
+  - name: New Layer 4
+    uniqueID: 382763827
+    locked: 0
   - name: sprites
     uniqueID: 3097190841
+    locked: 0
+  - name: inimigo
+    uniqueID: 2683545253
     locked: 0
